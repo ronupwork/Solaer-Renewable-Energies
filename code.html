@@ -119,8 +119,8 @@
                     onEachFeature: function (feature, layer) {
                         var popupContent = "<div class='custom-popup'><b>Name:</b> " + feature.properties.Name +
                                            "<br><b>Project:</b> " + feature.properties.Project +
-                                           "<br><b>Area:</b> " + feature.properties.Area +
-                                           "<br><b>Perimeter:</b> " + feature.properties.Perimeter + "</div>";
+                                          
+                                            "</div>";
                         layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
