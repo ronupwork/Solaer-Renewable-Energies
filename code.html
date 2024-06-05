@@ -88,10 +88,25 @@
                 map.addLayer(markers);
             });
 
-        // Fetch and style the countries layer
-        fetch('https://raw.githubusercontent.com/ronupwork/Solaer-Renewable-Energies/main/Countries.geojson')
-            .then(function(response) { return response.json(); })
-            .then(function(geoJsonData) {
+        // Fetch and parse the GeoJSONL file
+        fetch('https://raw.githubusercontent.com/ronupwork/Solaer-Renewable-Energies/main/gege.geojsonl.json')
+            .then(response => response.text())
+            .then(text => {
+                var geoJsonData = {
+                    type: "FeatureCollection",
+                    features: []
+                };
+
+                var lines = text.split('\n');
+                lines.forEach(line => {
+                    if (line.trim()) {
+                        var feature = JSON.parse(line);
+                        if (feature.properties && feature.properties.Project === "Yes") {
+                            geoJsonData.features.push(feature);
+                        }
+                    }
+                });
+
                 countryLayer = L.geoJSON(geoJsonData, {
                     style: function (feature) {
                         return {
@@ -100,6 +115,13 @@
                             fillOpacity: 0.5, // slightly transparent
                             weight: 1 // border width
                         };
+                    },
+                    onEachFeature: function (feature, layer) {
+                        var popupContent = "<div class='custom-popup'><b>Name:</b> " + feature.properties.Name +
+                                           "<br><b>Project:</b> " + feature.properties.Project +
+                                           "<br><b>Area:</b> " + feature.properties.Area +
+                                           "<br><b>Perimeter:</b> " + feature.properties.Perimeter + "</div>";
+                        layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
             });
