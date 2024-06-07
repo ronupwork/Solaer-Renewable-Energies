@@ -79,7 +79,8 @@
                                                "<br><b>Country:</b> " + feature.properties.Country +
                                                "<br><b>Location:</b> " + feature.properties.Location +
                                                "<br><b>Status:</b> " + feature.properties.Status +
-                                               "<br><b>Technology:</b> " + feature.properties.Technology + "</div>";
+                                               "<br><b>Technology:</b> " + feature.properties.Technology +
+                                               "<br><img src='" + feature.properties.imageURL + "' alt='Project Image' width='100%' height='auto'></div>";
                             layer.bindPopup(popupContent);
                         }
                     }
@@ -115,13 +116,6 @@
                             fillOpacity: 0.5, // slightly transparent
                             weight: 1 // border width
                         };
-                    },
-                    onEachFeature: function (feature, layer) {
-                        var popupContent = "<div class='custom-popup'><b>Name:</b> " + feature.properties.Name +
-                                           "<br><b>Project:</b> " + feature.properties.Project +
-                                          
-                                            "</div>";
-                        layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
             });
