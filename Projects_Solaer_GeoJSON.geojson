@@ -16,7 +16,8 @@
         "Country": "Spain",
         "Location": "Huesca",
         "Status": "Pre-construction",
-        "Technology": "Photovoltaic"
+        "Technology": "Photovoltaic",
+   "imageURL": "https://example.com/image1.png"
       }
     },
     {
