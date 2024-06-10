@@ -32,7 +32,10 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
     <script>
-        var map = L.map('mapid').setView([40, -3], 5);
+        var map = L.map('mapid', {
+            scrollWheelZoom: false
+        }).setView([40, -3], 5);
+
         var currentSelectedMarker = null; // Variable to store the currently selected marker
 
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
