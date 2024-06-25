@@ -374,7 +374,15 @@
 
       }
     },
-
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6044454,
+          40.6663601
+        ]
+      },
       "properties": {
         "Project": "Genzano Energia ",
         "Power": 99,
