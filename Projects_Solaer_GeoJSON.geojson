@@ -62,9 +62,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": 
-         [32.6667, 35.5667]
-        
+        "coordinates": [
+        -4.0273067,
+          39.8628296
+        ]
       },
       "properties": {
         "Project": "Toledo",
