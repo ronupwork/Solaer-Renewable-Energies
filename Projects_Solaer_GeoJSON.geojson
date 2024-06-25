@@ -43,6 +43,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": 
+         [32.6667, 35.5667]
+        
+      },
+      "properties": {
+        "Project": "Ashdot Yaakov",
+        "Power": 8,
+        "Country": "Israel",
+        "Location": "Jordan Valley",
+        "Status": "Construction/Preconstruction",
+        "Technology": "Photo-voltaic + Storage",
+ "imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -4.0273067,
           39.8628296
