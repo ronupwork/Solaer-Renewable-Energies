@@ -6,6 +6,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.8944,
+          34.8115
+        ]
+      },
+      "properties": {
+        "Project": "Rooftop Portfolio",
+        "Power": 72,
+        "Country": "Israel",
+        "Location": "50 locations",
+        "Status": "Operational",
+        "Technology": "Photovoltaic",
+   "imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+      }
+    },
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.4078058,
           42.131845
         ]
