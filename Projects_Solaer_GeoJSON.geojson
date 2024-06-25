@@ -15,7 +15,7 @@
         "Power": 125,
         "Country": "Spain",
         "Location": "Huesca",
-        "Status": "Pre-construction",
+        "Status": "Construction/Pre-construction",
         "Technology": "Photovoltaic",
    "imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
       }
@@ -53,8 +53,10 @@
         "Power": 19,
         "Country": "Spain",
         "Location": "Alicante",
-        "Status": "Pre-construction",
-        "Technology": "Photo-voltaic + Storage"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic + Storage",
+   "imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
  
 }
     },
@@ -68,12 +70,14 @@
         ]
       },
       "properties": {
-        "Project": "CISNE 1-4",
+        "Project": "Alfonso El Sabio 3",
         "Power": 200,
         "Country": "Spain",
         "Location": "Guadalajara",
         "Status": "Advanced Development",
-        "Technology": "Photo-voltaic + Storage"
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -86,12 +90,14 @@
         ]
       },
       "properties": {
-        "Project": "Valdemoro 1-2 + Torrejon 1-2",
+        "Project": "Alfonso El Sabio 2",
         "Power": 200,
         "Country": "Spain",
         "Location": "Toledo",
-        "Status": "Advanced Development",
-        "Technology": "Photo-voltaic + Storage"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -104,12 +110,14 @@
         ]
       },
       "properties": {
-        "Project": "Bierzo 0-3",
+        "Project": "Alfonso El Sabio 1",
         "Power": 200,
         "Country": "Spain",
         "Location": "Leon",
-        "Status": "Advanced Development",
-        "Technology": "Photo-voltaic + Storage"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -126,8 +134,10 @@
         "Power": 25,
         "Country": "Spain",
         "Location": "Alm\u00f3cita",
-        "Status": "In construction",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -144,8 +154,10 @@
         "Power": 25,
         "Country": "Spain",
         "Location": "Granada",
-        "Status": "Pre-construction",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -162,8 +174,10 @@
         "Power": 30,
         "Country": "Spain",
         "Location": "Murcia",
-        "Status": "In construction",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -176,14 +190,57 @@
         ]
       },
       "properties": {
-        "Project": "Elche 1-6",
-        "Power": 350,
+        "Project": "Elche 1",
+        "Power": 20,
+        "Country": "Spain",
+        "Location": "Elche",
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
+      }
+    },
+ {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7125608,
+          38.2699329
+        ]
+      },
+      "properties": {
+        "Project": "Elche 2-5",
+        "Power": 230,
         "Country": "Spain",
         "Location": "Elche",
         "Status": "Advanced Development",
-        "Technology": "Photo-voltaic + Storage"
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
+ {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7125608,
+          38.2699329
+        ]
+      },
+      "properties": {
+        "Project": "Elche 6",
+        "Power": 100,
+        "Country": "Spain",
+        "Location": "Elche",
+        "Status": "Early Development",
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
+      }
+    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -199,7 +256,9 @@
         "Country": "Spain",
         "Location": "Zaragoza",
         "Status": "Operational",
-        "Technology": "Photovoltaic"
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -217,7 +276,9 @@
         "Country": "Spain",
         "Location": "Zaragoza",
         "Status": "Early Development",
-        "Technology": "Photo-voltaic + Storage"
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -234,8 +295,10 @@
         "Power": 6,
         "Country": "Spain",
         "Location": "Zaragoza",
-        "Status": "Advanced Development",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -248,32 +311,17 @@
         ]
       },
       "properties": {
-        "Project": "Wloszczowa",
+        "Project": "Poland 1A",
         "Power": 3,
         "Country": "Poland",
         "Location": "Wloszczowa",
-        "Status": "In construction",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9699878,
-          40.6430766
-        ]
-      },
-      "properties": {
-        "Project": "Tito Energia ",
-        "Power": 10,
-        "Country": "Italy",
-        "Location": "Basilicata",
-        "Status": "Advanced Development",
-        "Technology": "Agrovoltaic"
-      }
-    },
+ 
     {
       "type": "Feature",
       "geometry": {
@@ -284,12 +332,14 @@
         ]
       },
       "properties": {
-        "Project": "Brindisi Energia 1-8",
-        "Power": 107,
+        "Project": "Matera Energia",
+        "Power": 151,
         "Country": "Italy",
         "Location": "Puglia",
         "Status": "Advanced Development",
-        "Technology": "Agrivoltaic"
+        "Technology": "Agrivoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -306,28 +356,13 @@
         "Power": 140,
         "Country": "Italy",
         "Location": "Puglia",
-        "Status": "Advanced Development",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9699878,
-          40.6430766
-        ]
-      },
-      "properties": {
-        "Project": "Guardia Perticara ",
-        "Power": 15,
-        "Country": "Italy",
-        "Location": "Basilicata",
-        "Status": "Advanced Development",
-        "Technology": "Agrovoltaic"
-      }
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -343,7 +378,9 @@
         "Country": "Italy",
         "Location": "Matera",
         "Status": "Advanced Development",
-        "Technology": "Agrivoltaic"
+        "Technology": "Agrivoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -356,51 +393,18 @@
         ]
       },
       "properties": {
-        "Project": "Craco Energia",
-        "Power": 19,
+        "Project": "Genzano Energia",
+        "Power": 99,
         "Country": "Italy",
         "Location": "Basilicata",
         "Status": "Advanced Development",
-        "Technology": "Agrovoltaic"
+        "Technology": "Agrovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9699878,
-          40.6430766
-        ]
-      },
-      "properties": {
-        "Project": "Effesolar",
-        "Power": 20,
-        "Country": "Italy",
-        "Location": "Basilicata",
-        "Status": "Advanced Develo[ment",
-        "Technology": "Agrovoltaic"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9699878,
-          40.6430766
-        ]
-      },
-      "properties": {
-        "Project": "Banzi Energia ",
-        "Power": 20,
-        "Country": "Italy",
-        "Location": "Basilicata",
-        "Status": "Advanced Development",
-        "Technology": "Agrovoltaic"
-      }
-    },
-    {
+
+      {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -415,7 +419,9 @@
         "Country": "Italy",
         "Location": "Basilicata",
         "Status": "Advanced Development",
-        "Technology": "Agrovoltaic"
+        "Technology": "Agrovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -433,28 +439,12 @@
         "Country": "Italy",
         "Location": "Basilicata",
         "Status": "Advanced Development",
-        "Technology": "Photovoltaic"
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9699878,
-          40.6430766
-        ]
-      },
-      "properties": {
-        "Project": "Melfi Energia",
-        "Power": 8,
-        "Country": "Italy",
-        "Location": "Basilicata",
-        "Status": "Advanced Development",
-        "Technology": "Agrovoltaic"
-      }
-    },
-    {
+      {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -469,7 +459,9 @@
         "Country": "Chile",
         "Location": "Atacama",
         "Status": "Advanced Development",
-        "Technology": "Desalination"
+        "Technology": "Desalination",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -486,8 +478,10 @@
         "Power": 3,
         "Country": "Chile",
         "Location": "Maule",
-        "Status": "In construction",
-        "Technology": "Photo-voltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -504,8 +498,10 @@
         "Power": 3,
         "Country": "Chile",
         "Location": "Maule",
-        "Status": "In-Construction",
-        "Technology": "Photovoltaic"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photovoltaic",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -522,8 +518,10 @@
         "Power": 48,
         "Country": "Chile",
         "Location": "Los Lagos",
-        "Status": "Advanced Development",
-        "Technology": "Wind"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Wind",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     },
     {
@@ -540,8 +538,11 @@
         "Power": 53,
         "Country": "Chile",
         "Location": "Vallenar",
-        "Status": "Pre-construction",
-        "Technology": "Photo-voltaic + Storage"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
+
       }
     },
     {
@@ -558,8 +559,10 @@
         "Power": 84,
         "Country": "Chile",
         "Location": "Tarapaca",
-        "Status": "Pre-construction",
-        "Technology": "Photo-voltaic + Storage"
+        "Status": "Construction/Pre-construction",
+        "Technology": "Photo-voltaic + Storage",
+"imageURL": "https://static.wixstatic.com/media/44807e_fd8e5f2b17b24ac3aec6f11de6fa193d~mv2.jpg?raw=true"
+
       }
     }
   ]
