@@ -178,8 +178,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7901189,
-          37.003002
+         
+        1.69111111,
+          41.871803
         ]
       },
       "properties": {
@@ -197,9 +198,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         1.69111111,
-          41.871803
-        ]
+      -2.7901189,
+          37.003002  
+              ]
       },
       "properties": {
         "Project": "Fargue",
